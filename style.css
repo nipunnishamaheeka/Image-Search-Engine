@@ -42,6 +42,17 @@ color: #fff;
 
 }
 
+#navBar{
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    margin-top: 55px;
+}
+#logo{
+    width: 350px;
+    height: auto;
+}
+
 
 
 #search h1{
@@ -53,7 +64,7 @@ color: #fff;
 #search p{
     text-align: center;
     margin: 20px auto 50px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 100%;
     max-width: 1500px;
 }
@@ -61,11 +72,11 @@ form{
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    height: 80px;
+    height: 70px;
     background: #ffffff;
     display: flex;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 form input{

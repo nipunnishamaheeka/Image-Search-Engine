@@ -1,26 +1,68 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
 body{
-    background: #231f2b;
+    /* background: #231f2b; */
+    background: #fff;
     color: #fff;
 }
 
-h1{
+ /* #header{
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1517849845537-4d257902454a');
+    background-image:  url(/assets/image-16.jpg)  ;
+    overflow: hidden;
+    background:  rgba(0,0,0,0.2) , url('assets/image-16.jpg');
+}  */
+#search{
+    height: 55vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    /* box-shadow: 0 0 5px 3px rgba(158, 149, 149, 0.5); */
+
+}
+
+#search .content{
+position: relative;
+z-index: 2;
+color: #fff;
+
+}
+
+
+
+#search h1{
+    font-size: 2.85rem;
     text-align: center;
-    margin: 100px auto 50px;
-    font-weight: 600;
+    font-weight: bold;
+}
+
+#search p{
+    text-align: center;
+    margin: 20px auto 50px;
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 1500px;
 }
 form{
-    width: 90%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
     height: 80px;
-    background: #434989;
+    background: #ffffff;
     display: flex;
     align-items: center;
     border-radius: 8px;
@@ -32,26 +74,28 @@ form input{
     border: 0;
     outline: 0;
     background: transparent;
-    color: #fff;
+    color: #373030;
     font-size: 18px;
-    padding: 0 30px;
+    padding: 0 50px;
 }
 
 form button{
-    padding: 0 50px;
-    height: 100%;
-    background: #ff3929;
+    /* padding: 0 40px; */
+    width: 120px;
+    height: 70%;
+    background: rgb(51, 106, 234);
     color: #fff;
-    font-size: 18px;
+    font-size: 1.3rem;
     border: 0;
     outline: 0;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius:8px ;
+    border-radius: 6px ;
     cursor: pointer;
+    margin-right: 15px;
     
 }
 ::placeholder{
-    color: #fff;
+    color: #2a2a2a;
+    opacity: 0.7;
     font-size: 18px;
 }
 
